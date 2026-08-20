@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Ultra Structura">
+  <text
+    x="180"
+    y="92"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', Times, serif"
+    font-size="64"
+    font-weight="700"
+    fill="#1C1915"
+    letter-spacing="0.04em"
+  >ULTRA</text>
+  <text
+    x="180"
+    y="168"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', Times, serif"
+    font-size="52"
+    font-weight="700"
+    fill="#C9A227"
+    letter-spacing="0.02em"
+  >STRUCTURA</text>
+</svg>

@@ -5,6 +5,7 @@ import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
+import { AppConfig } from '../utils/AppConfig';
 import { Logo } from './Logo';
 
 const Hero = () => (
@@ -12,12 +13,12 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            GitHub
-          </Link>
+          <Link href="#services">Услуги</Link>
         </li>
         <li>
-          <Link href="/">Sign in</Link>
+          <Link href={AppConfig.instagram} target="_blank" rel="noreferrer">
+            Instagram
+          </Link>
         </li>
       </NavbarTwoColumns>
     </Section>
@@ -26,14 +27,14 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developers</span>
+            {'AI Video Production\n'}
+            <span className="text-primary-600">для брендов и креаторов</span>
           </>
         }
-        description="The easiest way to build a React landing page in seconds."
+        description="Ultra Structura — создаём визуальный контент с помощью нейросетей: ролики, Reels, рекламные клипы и storytelling для соцсетей."
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
-            <Button xl>Download Your Free Theme</Button>
+          <Link href={AppConfig.instagram} target="_blank" rel="noreferrer">
+            <Button xl>Смотреть работы в Instagram</Button>
           </Link>
         }
       />
