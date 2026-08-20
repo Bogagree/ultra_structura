@@ -60,11 +60,28 @@ public/         # статика и изображения
 
 ## Деплой
 
+### GitHub Pages
+
+Сайт: [https://bogagree.github.io/ultra_structura/](https://bogagree.github.io/ultra_structura/)
+
+Деплой идёт автоматически через GitHub Actions при пуше в `master` (workflow `.github/workflows/pages.yml`).
+
+В Settings → Pages → Source должно быть **GitHub Actions**.
+
+Локальная статическая сборка как на Pages:
+
+```bash
+set GITHUB_PAGES=true
+npm run build-prod
+```
+
+### Другой хостинг
+
 ```bash
 npm run build-prod
 ```
 
-Готовые файлы — в папке `out`. Их можно выложить на любой статический хостинг (Vercel, Cloudflare Pages, nginx и т.д.).
+Готовые файлы — в папке `out`.
 
 ## Ссылки
 

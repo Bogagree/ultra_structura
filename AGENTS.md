@@ -4,7 +4,7 @@
 
 Static landing page for **Ultra Structura**, based on a Next.js + Tailwind starter.
 
-Stack: Next.js 14 (Pages Router), React 18, TypeScript (strict), Tailwind CSS 3, PostCSS, styled-jsx, next-seo. Deploy: Netlify static export (`out/`).
+Stack: Next.js 14 (Pages Router), React 18, TypeScript (strict), Tailwind CSS 3, PostCSS, styled-jsx, next-seo. Static export (`output: 'export'`) to `out/`. Deploy: GitHub Pages via Actions (`GITHUB_PAGES=true` sets `basePath` to `/ultra_structura`).
 
 ## Commands
 
@@ -54,7 +54,7 @@ Path aliases: `@/*` → `src/*`, `@/public/*` → `public/*`.
 | Global CSS | `src/styles/global.css` |
 | Colors / type scale | `tailwind.config.js` |
 | Favicons | `public/favicon*.png`, `public/apple-touch-icon.png` |
-| Deploy | `netlify.toml` (`publish = out`, `npm run build-prod`) |
+| Deploy | GitHub Pages Action; `GITHUB_PAGES=true` for `basePath` |
 
 ## Agent guidelines
 
