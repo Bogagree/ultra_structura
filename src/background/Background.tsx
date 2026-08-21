@@ -5,8 +5,6 @@ type IBackgroundProps = {
   color: string;
 };
 
-const Background = (props: IBackgroundProps) => (
+export const Background = (props: IBackgroundProps) => (
   <div className={props.color}>{props.children}</div>
 );
-
-export { Background };

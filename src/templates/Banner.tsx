@@ -5,7 +5,7 @@ import { CTABanner } from '../cta/CTABanner';
 import { Section } from '../layout/Section';
 import { AppConfig } from '../utils/AppConfig';
 
-const Banner = () => (
+export const Banner = () => (
   <Section>
     <CTABanner
       title="Готовы обсудить AI-видео для вашего бренда?"
@@ -18,5 +18,3 @@ const Banner = () => (
     />
   </Section>
 );
-
-export { Banner };

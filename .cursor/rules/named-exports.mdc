@@ -1,0 +1,22 @@
+---
+description: Именованные экспорты через export const
+globs: "**/*.{ts,tsx}"
+alwaysApply: false
+---
+
+# Именованные экспорты
+
+Пиши `export const` сразу у объявления. Не выноси `export { Name }` в конец файла.
+
+```tsx
+// ❌ BAD
+const Button = (props: IButtonProps) => { /* ... */ };
+export { Button };
+
+// ✅ GOOD
+export const Button = (props: IButtonProps) => { /* ... */ };
+```
+
+Импорт остаётся именованным: `import { Button } from '../button/Button'`.
+
+`export default` только для страниц Next.js в `src/pages/` (`_app`, `_document`, `index`).

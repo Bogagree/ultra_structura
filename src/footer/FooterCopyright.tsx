@@ -1,6 +1,6 @@
 import { AppConfig } from '../utils/AppConfig';
 
-const FooterCopyright = () => (
+export const FooterCopyright = () => (
   <div className="footer-copyright">
     © {new Date().getFullYear()} {AppConfig.site_name}. AI Video Production.{' '}
     <a href={AppConfig.instagram} target="_blank" rel="noreferrer">
@@ -19,5 +19,3 @@ const FooterCopyright = () => (
     </style>
   </div>
 );
-
-export { FooterCopyright };

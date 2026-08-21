@@ -6,7 +6,7 @@ type ILogoProps = {
   xl?: boolean;
 };
 
-const Logo = (props: ILogoProps) => {
+export const Logo = (props: ILogoProps) => {
   const router = useRouter();
   const height = props.xl ? 48 : 36;
   const width = props.xl ? 78 : 58;
@@ -21,5 +21,3 @@ const Logo = (props: ILogoProps) => {
     />
   );
 };
-
-export { Logo };

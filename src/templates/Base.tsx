@@ -5,7 +5,7 @@ import { Footer } from './Footer';
 import { Hero } from './Hero';
 import { VerticalFeatures } from './VerticalFeatures';
 
-const Base = () => (
+export const Base = () => (
   <div className="text-gray-600 antialiased">
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Hero />
@@ -14,5 +14,3 @@ const Base = () => (
     <Footer />
   </div>
 );
-
-export { Base };

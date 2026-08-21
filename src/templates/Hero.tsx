@@ -8,7 +8,7 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { AppConfig } from '../utils/AppConfig';
 import { Logo } from './Logo';
 
-const Hero = () => (
+export const Hero = () => (
   <Background color="bg-gray-100">
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
@@ -41,5 +41,3 @@ const Hero = () => (
     </Section>
   </Background>
 );
-
-export { Hero };

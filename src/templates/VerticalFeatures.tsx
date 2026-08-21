@@ -1,7 +1,7 @@
 import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import { Section } from '../layout/Section';
 
-const VerticalFeatures = () => (
+export const VerticalFeatures = () => (
   <div id="services">
     <Section
       title="Что мы делаем"
@@ -29,5 +29,3 @@ const VerticalFeatures = () => (
     </Section>
   </div>
 );
-
-export { VerticalFeatures };

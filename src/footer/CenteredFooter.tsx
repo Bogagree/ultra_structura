@@ -9,7 +9,7 @@ type ICenteredFooterProps = {
   children: ReactNode;
 };
 
-const CenteredFooter = (props: ICenteredFooterProps) => (
+export const CenteredFooter = (props: ICenteredFooterProps) => (
   <div className="text-center">
     {props.logo}
 
@@ -36,5 +36,3 @@ const CenteredFooter = (props: ICenteredFooterProps) => (
     </style>
   </div>
 );
-
-export { CenteredFooter };

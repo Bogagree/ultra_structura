@@ -6,7 +6,7 @@ import { Section } from '../layout/Section';
 import { AppConfig } from '../utils/AppConfig';
 import { Logo } from './Logo';
 
-const Footer = () => (
+export const Footer = () => (
   <Background color="bg-gray-100">
     <Section>
       <CenteredFooter
@@ -39,5 +39,3 @@ const Footer = () => (
     </Section>
   </Background>
 );
-
-export { Footer };

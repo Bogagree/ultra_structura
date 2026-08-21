@@ -34,7 +34,7 @@ Path aliases: `@/*` → `src/*`, `@/public/*` → `public/*`.
 
 ## Conventions
 
-- Named exports for components (`export { Button }`), default export only for Next pages/`_app`.
+- Named exports as `export const` (`export const Button = ...`). Do not use a trailing `export { Button }`. Default export only for Next pages (`_app`, `_document`, `index`).
 - Prefer `import type` for type-only imports (ESLint enforces this).
 - Sort imports with `simple-import-sort`.
 - Styling: Tailwind utility classes; component-scoped styles via `styled-jsx` + `@apply` when needed (see `button/Button.tsx`).

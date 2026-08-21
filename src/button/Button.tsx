@@ -5,7 +5,7 @@ type IButtonProps = {
   children: string;
 };
 
-const Button = (props: IButtonProps) => {
+export const Button = (props: IButtonProps) => {
   const btnClass = className({
     btn: true,
     'btn-xl': props.xl,
@@ -43,5 +43,3 @@ const Button = (props: IButtonProps) => {
     </div>
   );
 };
-
-export { Button };
