@@ -58,6 +58,7 @@ Path aliases: `@/*` → `src/*`, `@/public/*` → `public/*`.
 
 ## Agent guidelines
 
+- This project is Next.js only (Pages Router). Do not migrate to another framework, bundler, or meta-framework.
 - Keep the atomic → template → page layering; put reusable UI in atomic folders, page-specific composition in `templates/`.
 - Match existing patterns: functional components, TypeScript props as `type I*Props`, `classnames` when combining classes.
 - Run `npm run check-types` and `npm run lint` after non-trivial edits.

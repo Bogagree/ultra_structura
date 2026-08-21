@@ -86,3 +86,9 @@ npm run build-prod
 ## Ссылки
 
 - Instagram: [instagram.com/ultra_structura](https://www.instagram.com/ultra_structura/)
+
+## License
+
+MIT. Based on the [Next.js Landing Page Starter](https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template) by [Rem W.](https://github.com/ixartz) (CreativeDesignsGuru).
+
+See [LICENSE](LICENSE) for the full text. Copyright © 2026 Rem W.
